@@ -53,7 +53,7 @@ Use the following payload where interaction_url is a link to an mp3 file uploade
 
 ```json
 {
-    'interaction_url': 's3://...'
+    "interaction_url": "s3://..."
 }
 ```
 
@@ -63,6 +63,6 @@ Here is an example payload:
 
 ```json
 {
-    'interaction_url': 's3://minisedric-transcribe-bucket/my_way.mp3'
+    "interaction_url": "s3://minisedric-transcribe-bucket/my_way.mp3"
 }
 ```
