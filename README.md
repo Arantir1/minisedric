@@ -66,3 +66,37 @@ Here is an example payload:
     "interaction_url": "s3://minisedric-transcribe-bucket/my_way.mp3"
 }
 ```
+
+## Insights Matcher
+
+### Prerequisites
+
+Before running the matcher script over transcribed data, ensure you have the following:
+
+ - Python installed on your system
+ - spaCy module installed
+ - en_core_web_sm model downloaded
+
+#### Installing spaCy
+
+To install spaCy, run:
+
+```sh
+pip install spacy
+```
+
+#### Downloading the Model
+
+To download the en_core_web_sm model, run:
+
+```sh
+python -m spacy download en_core_web_sm
+```
+
+#### Execute Search
+
+To run the search over transcribed data, execute this command:
+
+```sh
+python matcher.py
+```
